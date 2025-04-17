@@ -1,0 +1,58 @@
+{% assign a = 10 %}
+{% if a > 10 %}
+  <p>a is greater than 10</p>
+{% elsif a > 7 %}
+  <p>variable is greater than 7</p>
+{% elsif a > 5 %}
+  <p>a is greater than 5</p>
+{% else %}
+  <p>a is less than 10</p>
+{% endif %}
+{% if product.title contains 'Snowboard' %}
+  <p>This is a snowboard</p>
+{% endif %}
+{% if product.tags contains 'Winter' %}
+  <p>This is a winter product.</p>
+{% endif %}
+{% assign tags = product.tags %}
+{{ tags }}
+{% unless tags contains 'Winter' %}
+  <p>This product doesn't contains Winter</p>
+{% else %}
+  <p>This product contains Winter</p>
+{% endunless %}
+{% unless a >= 10 %}
+  <p>a is greater than 10</p>
+{% else %}
+  <p>a is less than 10</p>
+{% endunless %}
+
+{% if product.title contains 'Snowboard' or oroduct.type == 'Snowboard' and product.price < 65000 %}
+  <p>This is an affordable Snowboard.</p>
+{% else %}
+  <p>This is not an affordable Snowboard.</p>
+{% endif %}
+{% comment %} shopify checks conditions from right to left i.e last condition will be checked first {% endcomment %}
+{% comment %} let's store mutliple conditions in a keyword {% endcomment %}
+{% assign isSnowBoard = false %}
+{% if product.title contains 'Snowboard' or product.type == 'Snowboard' %}
+  {% assign isSnowBoard = true %}
+{% endif %}
+{% if isSnowBoard and product.price < 65000 %}
+  <p>This is an affordable snowboard</p>
+{% else %}
+  <p>This is not an affordable snowboard</p>
+{% endif %}
+{% comment %} switch in liquid {% endcomment %}
+{% if product.type != blank %}
+  {% case product.type %}
+    {% when 'Snowboard' %}
+      <p>This is a Snowboard./</p>
+    {% when 'ski wax' %}
+      <p>This is ski wax.</p>
+    {% when 'giftcard' %}
+      <p>This is a giftcard</p>
+    {% else %}
+      <p>No known product type</p>
+  {% endcase %}
+{% endif %}

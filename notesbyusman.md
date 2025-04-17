@@ -96,3 +96,7 @@ minus	downcase	first	default
 times	capitalize	last	money
 divided_by	strip_html	sort	json
  
+ # shopify checks conditions from right to left i.e last condition will be checked first 
+ # for example: 
+
+ {% if product.title contains 'Snowboard' or oroduct.type == 'Snowboard' and product.price < 65000 %}

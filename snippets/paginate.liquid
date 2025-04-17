@@ -1,0 +1,7 @@
+{% comment %} we can't run more iteration than 50 per page, for this we use paginate in case we have much of the products {% endcomment %}
+{% paginate collection.products by 5 %}
+  {% for product in collection.products %}
+    <p>{{ product.title }}</p>
+  {% endfor %}
+  {{ paginate | default_pagination }}
+{% endpaginate %}

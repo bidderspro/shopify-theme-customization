@@ -98,3 +98,15 @@ Backend is for everything else.
 2. Will other clients integrate a separate backend while customizing shopify theme?
 3. is it possible to remove liquid while customizing a theme and use react for designing theme and express or something else to implement backend?
 4. Is client do this i.e do client ask to remove simple liquid and shopify provides apis that can be handled with using backend instead of shopify liquid language?
+
+# when you create a snippets then it's required to add documentation of that file in form of comments
+
+<!-- comment -->
+
+Accepts
+...
+...
+Usage:
+...
+...
+<!-- endcomment -->

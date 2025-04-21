@@ -53,3 +53,17 @@
 {% assign numm2 = -11 | abs %}
 {% comment %} without | abs output will be -11 but using | abs will only give absolute value which is 11. {% endcomment %}
 <p>Absolute number is:{{ numm2 }}</p>
+{% comment %} round filter will round number i.e if number is 10.5 it will do it as 11 {% endcomment %}
+{% comment %} floor filter will round number i.e if number is 10.5 it will do it as 10 {% endcomment %}
+{% comment %} ceil filter will round number i.e if number is 10.4 it will do it as 11 {% endcomment %}
+{% assign myroundfiltr = 10.4 | round %}
+<p>myRoundNumberIS={{ myroundfiltr }}</p>
+{% comment %}
+  at_most filter filter will give us at_most value like if number is 100 and we set
+  at_most value is 80 then we will get value 80 but if it's at_least filter and we set at_least value to 70
+  and actual value is 60 so it will get value 70
+{% endcomment %}
+{% assign myCappedVal = 100 | at_most: 80 %}
+myCappedVal:{{ myCappedVal }}
+{% assign myCappedVal = 100 | at_least: 80 %}
+myCappedVal:{{ myCappedVal }}

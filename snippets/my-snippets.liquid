@@ -1,0 +1,23 @@
+{% comment %} <p>This is my snippets file</p> {% endcomment %}
+{% comment %}
+  Renders a fist word and a second word
+  Accepts:
+  _ word: {String} first word
+  _ second_word: {String} the second word
+
+  Usage:
+  {% render 'my-snippet', {word: word:variable, second_word: second_word_variable} %}
+{% endcomment %}
+
+<p>The word is {{ word }} and the second word is {{ second_word }}</p>
+{% comment %} <script src="{{ 'my-snippet-script.js' | asset_url }}" async></script> {% endcomment %}
+{% comment %} <img src="{{ 'a.jpg' | asset_image_url:'1000x1000' }}" loading="eager" width="500" height="500"> {% endcomment %}
+{% comment %} <img src="{{ 'a.jpg' | img_url: '1000x1000' }}" loading="eager" width="500" height="500"> {% endcomment %}
+<img src="{{ 'a.JPG' | asset_url }}" loading="eager" width="500" height="500">
+<img
+  src="{{ 'image1.png' | asset_url }}"
+  alt="Description of image1"
+  loading="eager"
+  width="500"
+  height="500"
+>

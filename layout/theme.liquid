@@ -303,7 +303,15 @@
     {% comment %} {% render 'tutorial2' %} {% endcomment %}
     {% comment %} {% render 'loopconcept' %} {% endcomment %}
     {% comment %} {% render 'paginate' %} {% endcomment %}
-    {% render 'filters' %}
+    {% comment %} {% render 'filters' %} {% endcomment %}
+    {% comment %} {% render 'stringfilters' %} {% endcomment %}
+    {% comment %} we can also pas parameters in file {% endcomment %}
+    {%
+      render "my-snippets",{
+      word:"word",
+      second_word:"word2"
+      }
+    %}
     <p>Hello world</p>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}

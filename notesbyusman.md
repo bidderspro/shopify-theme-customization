@@ -142,3 +142,11 @@ Query parameters (?key=value) are used for tracking (UTMs), filtering collection
 this file is not present with every theme, and this is basically a layout for the checkout page. it's only available for shopify plus store and that's why we don't see it in every theme and in layout folder. and one thing more even in plus mode checkout.liquid is deprecated 
 # sections
 sections are liquid files that allows us to create reusable modules of content that can be customized by Merchants. What this mean is that we will only create the HTML structure but the content itself will be added by the Merchant, they can be as customizeable as you need them to be.   
+# schema 
+{% schema %}
+schema is a special file that is used in liquid files inside the sections directory
+
+# let's see where the data for the sections we change in the home page lives so the data for any section lives in the template file associated to it which is index.json
+
+# templates directory 
+templates controls what render on each type of page in the theme, each page in the theme has an Associated template but a single template can be Associated to multiple pages, there are different types of templates.

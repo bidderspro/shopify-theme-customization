@@ -110,3 +110,7 @@ Usage:
 ...
 ...
 <!-- endcomment -->
+# 
+now i create two templates named page.liduid-template1.liquid and page.liduid-templatee2.liquid, i manually added two sections using code and these can't be deleted using development local editor as these were added using hard coded, now when i added page by going to page>liquid-template1 and added heading in this template1 and then i created another page.liquid-template2 file and write same hard code written in file1 then i view the same heading that was changed manually after adding theme 1, agr smjh nahih aae to ye video yahan dy ly kr yahan tk dekh len, 58:56 to 1:02:56 (liquid template)
+https://youtu.be/pYWxm3SUhts?si=S39FHVGUU3P5uZXp
+The reason for this is because all liquid templates share same data accros sections

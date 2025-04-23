@@ -11,6 +11,33 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "promotions_group_DwikyG": {
+      "type": "promotions-group",
+      "blocks": {
+        "promotion_dJDpiy": {
+          "type": "promotion",
+          "settings": {
+            "title": "Promotion 1",
+            "image": "shopify://shop_images/Main_d624f226-0a89-4fe1-b333-0d1548b43c06.jpg"
+          }
+        },
+        "promotion_ygjdLt": {
+          "type": "promotion",
+          "settings": {
+            "title": "Promotion 2",
+            "image": "shopify://shop_images/Main_9129b69a-0c7b-4f66-b6cf-c4222f18028a.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "promotion_dJDpiy",
+        "promotion_ygjdLt"
+      ],
+      "settings": {
+        "Title": "Promotions",
+        "Title_alignment": "left"
+      }
+    },
     "footer": {
       "type": "footer",
       "settings": {
@@ -30,6 +57,7 @@
     }
   },
   "order": [
+    "promotions_group_DwikyG",
     "footer"
   ]
 }

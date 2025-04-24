@@ -150,3 +150,4 @@ schema is a special file that is used in liquid files inside the sections direct
 
 # templates directory 
 templates controls what render on each type of page in the theme, each page in the theme has an Associated template but a single template can be Associated to multiple pages, there are different types of templates.
+

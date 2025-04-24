@@ -1451,15 +1451,5 @@
         "default": "scheme-1"
       }
     ]
-  },
-  {
-    "name": "tutorial",
-    "settings": [
-      {
-        "type": "text",
-        "label": "Promotion",
-        "id": "promotion_name"
-      }
-    ]
   }
 ]

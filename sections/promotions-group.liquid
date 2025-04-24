@@ -1,8 +1,5 @@
 <h2 style="text-align: {{ section.settings.Title_alignment }}">{{ section.settings.Title }}</h2>
 {% comment %} <h2>{{ section.settings.Title }}</h2> {% endcomment %}
-{% if settings.promotion_name.size > 0 %}
-  <p>Active Promotion:{{ settings.promotion_name }}</p>
-{% endif %}
 <div style="display:flex; justify-content:center gap:20px;">
   {% for block in section.blocks %}
     {% if block.type == 'promotion' %}

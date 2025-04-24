@@ -126,7 +126,6 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "scheme-1",
-    "promotion_name": "50% discount accros the store",
     "sections": {
       "main-password-header": {
         "type": "main-password-header",
@@ -139,62 +138,27 @@
         "settings": {
           "color_scheme": "scheme-1"
         }
-      },
-      "image-banner": {
-        "type": "image-banner",
-        "blocks": {
-          "heading_xB4Jyy": {
-            "type": "heading",
-            "settings": {
-              "heading": "Image banner heading",
-              "heading_size": "h1"
-            }
-          }
-        },
-        "block_order": [
-          "heading_xB4Jyy"
-        ],
-        "settings": {
-          "image_overlay_opacity": 0,
-          "image_height": "medium",
-          "image_behavior": "none",
-          "desktop_content_position": "middle-center",
-          "desktop_content_alignment": "center",
-          "show_text_box": true,
-          "color_scheme": "",
-          "stack_images_on_mobile": true,
-          "mobile_content_alignment": "center",
-          "show_text_below": true
-        }
-      },
-      "promotions-group": {
-        "type": "promotions-group",
-        "settings": {
-          "Title": "Liquid Template Title",
-          "Title_alignment": "left"
-        }
       }
     },
-    "content_for_index": [],
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
+          "background": "#FFFFFF",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
-          "button_label": "#ffffff",
+          "button_label": "#FFFFFF",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
       },
       "scheme-2": {
         "settings": {
-          "background": "#f3f3f3",
+          "background": "#F3F3F3",
           "background_gradient": "",
           "text": "#121212",
           "button": "#121212",
-          "button_label": "#f3f3f3",
+          "button_label": "#F3F3F3",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
         }
@@ -203,10 +167,10 @@
         "settings": {
           "background": "#242833",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
+          "text": "#FFFFFF",
+          "button": "#FFFFFF",
           "button_label": "#000000",
-          "secondary_button_label": "#ffffff",
+          "secondary_button_label": "#FFFFFF",
           "shadow": "#121212"
         }
       },
@@ -214,21 +178,21 @@
         "settings": {
           "background": "#121212",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
+          "text": "#FFFFFF",
+          "button": "#FFFFFF",
           "button_label": "#121212",
-          "secondary_button_label": "#ffffff",
+          "secondary_button_label": "#FFFFFF",
           "shadow": "#121212"
         }
       },
       "scheme-5": {
         "settings": {
-          "background": "#334fb4",
+          "background": "#334FB4",
           "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#ffffff",
-          "button_label": "#334fb4",
-          "secondary_button_label": "#ffffff",
+          "text": "#FFFFFF",
+          "button": "#FFFFFF",
+          "button_label": "#334FB4",
+          "secondary_button_label": "#FFFFFF",
           "shadow": "#121212"
         }
       }

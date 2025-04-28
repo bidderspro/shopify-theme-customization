@@ -11,6 +11,233 @@
   "name": "t:sections.footer.name",
   "type": "footer",
   "sections": {
+    "table_7D6Nh8": {
+      "type": "table",
+      "blocks": {
+        "table_row_WF9gVR": {
+          "type": "_table-row",
+          "name": "Table Row",
+          "settings": {},
+          "blocks": {
+            "table_cell_cFjBde": {
+              "type": "_table-cell",
+              "name": "Body Cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_XJUPQr": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "Content 1"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_XJUPQr"
+              ]
+            },
+            "table_cell_X9yEJt": {
+              "type": "_table-cell",
+              "name": "Body Cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_3Kpgrj": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "Content 2"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_3Kpgrj"
+              ]
+            },
+            "table_cell_mRpAeq": {
+              "type": "_table-cell",
+              "name": "Body Cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_XPckEX": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "Content 3"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_XPckEX"
+              ]
+            }
+          },
+          "block_order": [
+            "table_cell_cFjBde",
+            "table_cell_X9yEJt",
+            "table_cell_mRpAeq"
+          ]
+        },
+        "table_row_BTgwdk": {
+          "type": "_table-row",
+          "name": "Table Row",
+          "settings": {},
+          "blocks": {
+            "table_cell_Q4b9Gy": {
+              "type": "_table-cell",
+              "name": "Body Cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_D97mki": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "Content 1"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_D97mki"
+              ]
+            },
+            "table_cell_zdk7NX": {
+              "type": "_table-cell",
+              "name": "Body Cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_3CpMwc": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "this is a different content"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_3CpMwc"
+              ]
+            },
+            "table_cell_VNdpV9": {
+              "type": "_table-cell",
+              "name": "Body Cell",
+              "settings": {
+                "type_of_cell": "body"
+              },
+              "blocks": {
+                "text_xWTAbM": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "Content 3"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_xWTAbM"
+              ]
+            }
+          },
+          "block_order": [
+            "table_cell_Q4b9Gy",
+            "table_cell_zdk7NX",
+            "table_cell_VNdpV9"
+          ]
+        },
+        "table-header": {
+          "type": "_table-header" ,
+          "static": true,
+          "settings": {},
+          "blocks": {
+            "table_cell_gAzW3x": {
+              "type": "_table-cell",
+              "name": "Header Cell",
+              "settings": {
+                "type_of_cell": "header"
+              },
+              "blocks": {
+                "text_d8md6C": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "Header 1"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_d8md6C"
+              ]
+            },
+            "table_cell_zKLY6q": {
+              "type": "_table-cell",
+              "name": "Header Cell",
+              "settings": {
+                "type_of_cell": "header"
+              },
+              "blocks": {
+                "text_hkkXQt": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "Header 2"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_hkkXQt"
+              ]
+            },
+            "table_cell_4Yi8e6": {
+              "type": "_table-cell",
+              "name": "Header Cell",
+              "settings": {
+                "type_of_cell": "header"
+              },
+              "blocks": {
+                "text_BDhK7y": {
+                  "type": "text",
+                  "name": "Text",
+                  "settings": {
+                    "text": "Header 3"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_BDhK7y"
+              ]
+            }
+          },
+          "block_order": [
+            "table_cell_gAzW3x",
+            "table_cell_zKLY6q",
+            "table_cell_4Yi8e6"
+          ]
+        }
+      },
+      "block_order": [
+        "table_row_WF9gVR",
+        "table_row_BTgwdk"
+      ],
+      "name": "Table",
+      "settings": {}
+    },
     "promotions_group_DwikyG": {
       "type": "promotions-group",
       "blocks": {
@@ -57,6 +284,7 @@
     }
   },
   "order": [
+    "table_7D6Nh8",
     "promotions_group_DwikyG",
     "footer"
   ]

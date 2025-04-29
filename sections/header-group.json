@@ -53,10 +53,191 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "image_gallary_ma4Lx7": {
+      "type": "image-gallary",
+      "blocks": {
+        "image_XiUjqd": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_rrNPtg": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_jLyg7K": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_EbapQL": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_iXJiGg": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_pNgMpy": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_8p7TM6": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_QU3YGY": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_iqVQmR": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_nwpi4z": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_UUFfDU": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_tf6cpn": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_Pxkw3e": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_7cYQRV": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_YkPCYC": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_RaQrtQ": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_rpe8aT": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_zP4fjB": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_iMBXJm": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_P8Ufkd": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_9XWfNb": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_YVKk73": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_WcK7Mq": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        },
+        "image_ikrrC8": {
+          "type": "image",
+          "settings": {
+            "caption": "Image description"
+          }
+        }
+      },
+      "block_order": [
+        "image_XiUjqd",
+        "image_rrNPtg",
+        "image_jLyg7K",
+        "image_EbapQL",
+        "image_iXJiGg",
+        "image_pNgMpy",
+        "image_8p7TM6",
+        "image_QU3YGY",
+        "image_iqVQmR",
+        "image_nwpi4z",
+        "image_UUFfDU",
+        "image_tf6cpn",
+        "image_Pxkw3e",
+        "image_7cYQRV",
+        "image_YkPCYC",
+        "image_RaQrtQ",
+        "image_rpe8aT",
+        "image_zP4fjB",
+        "image_iMBXJm",
+        "image_P8Ufkd",
+        "image_9XWfNb",
+        "image_YVKk73",
+        "image_WcK7Mq",
+        "image_ikrrC8"
+      ],
+      "name": "Image Gallery",
+      "settings": {
+        "title": "Our Gallery",
+        "images_per_page": 6
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "image_gallary_ma4Lx7"
   ]
 }

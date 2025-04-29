@@ -1,0 +1,9 @@
+<div class="collection-custom-page">
+  {% for product in collection.products %}
+    <div class="product-card">
+      <h2>{{ product.title }}</h2>
+
+      {% render 'product-label', product: product %}
+    </div>
+  {% endfor %}
+</div>

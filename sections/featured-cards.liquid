@@ -1,0 +1,51 @@
+{% stylesheet %}
+  .featured-card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 40px 0;
+  }
+  .featured-card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .featured-card:hover {
+    transform: translateY(-5px);
+  }
+  .featured-card img {
+    width: 100%;
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 15px;
+  }
+  .featured-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+  }
+  .featured-card p {
+    color: #666;
+    font-size: 0.95rem;
+  }
+{% endstylesheet %}
+
+<div class="featured-card-wrapper">
+  <div class="featured-card">
+    <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ product.title }}">
+
+    {% comment %} <img src="{{ 'product1.jpg' | asset_url }}" alt="Product 1"> {% endcomment %}
+    <h3>Product One</h3>
+    <p>This is a best-selling featured product loved by our customers.</p>
+  </div>
+  <div class="featured-card">
+    <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ product.title }}">
+
+    {% comment %} <img src="{{ 'product2.jpg' | asset_url }}" alt="Product 2"> {% endcomment %}
+    <h3>Product Two</h3>
+    <p>Discover the elegance and quality in this highly rated item.</p>
+  </div>
+</div>

@@ -3688,56 +3688,6 @@ details-disclosure > details {
 below css is added by me usman
 
 */
-.card__media-container {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-}
-
-.card__background-card {
-  position: absolute;
-  border-radius: 16px;
-  background: linear-gradient(
-    135deg,
-    rgba(10, 50, 80, 0.3) 0%,
-    rgba(25, 100, 150, 0.2) 100%
-  );
-  z-index: -1;
-  box-shadow: 0 4px 12px rgba(0, 0, 50, 0.1);
-}
-
-.card__background-card--primary {
-  width: 120%;
-  height: 120%;
-  top: -10%;
-  left: -10%;
-  transform: rotate(3deg);
-}
-
-.card__background-card--secondary {
-  width: 110%;
-  height: 110%;
-  top: -5%;
-  left: -5%;
-  transform: rotate(-2deg);
-  background: linear-gradient(
-    135deg,
-    rgba(5, 30, 60, 0.2) 0%,
-    rgba(15, 80, 120, 0.15) 100%
-  );
-}
-
-.card__media {
-  position: relative;
-  z-index: 1;
-  transform: scale(0.95);
-  transition: transform 0.3s ease;
-}
-
-.card__media:hover {
-  transform: scale(1);
-}
-
 /* 
 above css is added by me usman
  */

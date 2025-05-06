@@ -1,3 +1,33 @@
+{% if product.metafields.custom.example_metafield %}
+  <h2>Example metafield</h2>
+  <p>{{ product.metafields.custom.example_metafield }}</p>
+{% endif %}
+
+{% if product.metafields.custom.related_product %}
+  <h2>Product Metafield</h2>
+  <p>{{ product.metafields.custom.related_product }}</p>
+  <p>{{ product.metafields.custom.related_product.value }}</p>
+  <p>{{ product.metafields.custom.related_product.value.title }}</p>
+  <p>{{ product.metafields.custom.related_product.value.price | money }}</p>
+{% endif %}
+<h2>File Type Metafield</h2>
+<p>
+  {% comment %} {{ product.metafields.custom.product_guide.value | json }} {% endcomment %}
+  {{ product.metafields.custom.product_guide.value.url }}
+</p>
+<a href="{{product.metafields.custom.product_guide.value.url}}">Download Now</a>
+<h2>File Image Type Metafield</h2>
+<p>
+  {% comment %} {{ product.metafields.custom.image_metafield | image_url: width: 500 | image_tag | json }} {% endcomment %}
+  {{ product.metafields.custom.image_metafield.value | image_url: width: 500 | image_tag }}
+</p>
+<a href="{{ product.metafields.custom.image_metafield | image_url }}" download>Download Now</a>
+<h2>
+  Date type metafield
+  <p>
+    {{ product.metafields.custom.date_metafield.value | date: '%B %d, %Y' }}
+  </p>
+</h2>
 <product-info
   id="MainProduct-{{ section.id }}"
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
@@ -356,7 +386,10 @@
                                 </dt>
                                 <dd>
                                   <span class="price-per-item--current">
-                                    {{- 'products.product.volume_pricing.price_at_each_html' | t: price: variant_price -}}
+                                    {{-
+                                      'products.product.volume_pricing.price_at_each_html'
+                                      | t: price: variant_price
+                                    -}}
                                   </span>
                                 </dd>
                               </dl>
@@ -1674,7 +1707,7 @@
         {
           "type": "header",
           "content": "t:sections.main-product.blocks.icon_with_text.settings.pairing_2.label"
-        },        
+        },
         {
           "type": "select",
           "id": "icon_2",
@@ -1874,7 +1907,7 @@
         {
           "type": "header",
           "content": "t:sections.main-product.blocks.icon_with_text.settings.pairing_3.label"
-        },        
+        },
         {
           "type": "select",
           "id": "icon_3",
@@ -2176,7 +2209,7 @@
       ],
       "default": "hide",
       "label": "t:sections.main-product.settings.mobile_thumbnails.label"
-    },    
+    },
     {
       "type": "select",
       "id": "media_position",

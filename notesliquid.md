@@ -109,4 +109,15 @@ Accepts
 Usage:
 ...
 ...
+
 <!-- endcomment -->
+
+In Shopify, a metafield is a flexible way to store custom, detailed information about products, orders, customers, and other resources, going beyond the basic fields available in the Shopify admin
+
+
+Shopify has a limit of 10 pinned metafield definitions visible on product pages, and a limit of 20 pinned customer metafields visible on customer details in the POS app. However, the total number of metafield definitions you can create is 200 for each resource type
+
+# standard metafields definitions
+when creating a meta field and filling/writtng name for a new definition, we get a list of suggestions these are known as standard metfields definitions.
+
+shopify has created metafields to store data under specific cases, if you need to store data that follows under these cases usually use a standard meta field as they are interoperable between apps and themes 

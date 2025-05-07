@@ -121,3 +121,6 @@ Shopify has a limit of 10 pinned metafield definitions visible on product pages,
 when creating a meta field and filling/writtng name for a new definition, we get a list of suggestions these are known as standard metfields definitions.
 
 shopify has created metafields to store data under specific cases, if you need to store data that follows under these cases usually use a standard meta field as they are interoperable between apps and themes 
+
+# How to get newly added metafields in localhost code?
+just run "shopify theme dev" again to see your changes

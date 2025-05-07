@@ -313,7 +313,13 @@
       }
     %}
     {% comment %} snippets manually added by me {% endcomment %}
-     
+    <p>value;;;;;;;;;;;;;;;;;;;;;;{{ product.metafields.test_data.snowboard_length.value }}</p>
+    <p>Length value: {{ product.metafields.test_data.snowboard_length.value.value }}</p>
+<p>Length unit: {{ product.metafields.test_data.snowboard_length.value.unit }}</p>
+
+{{ product.metafields.custom.date_metafield.value | date: '%B %d, %Y' }}
+
+
     <p>Hello world</p>
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}

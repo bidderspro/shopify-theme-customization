@@ -78,6 +78,16 @@
         "name": "date",
         "category": "DATE_TIME"
       }
+    },
+    {
+      "key": "temp_metafield",
+      "namespace": "custom",
+      "name": "Temp Metafield",
+      "description": "",
+      "type": {
+        "name": "single_line_text_field",
+        "category": "TEXT"
+      }
     }
   ],
   "variant": [],

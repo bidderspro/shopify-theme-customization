@@ -1,7 +1,0 @@
-{% if product.tags contains 'New' %}
-  <span class="badge badge-new">New</span>
-{% elsif product.compare_at_price > product.price %}
-  <span class="badge badge-sale">Sale</span>
-{% else %}
-  <span> No price to show</span>
-{% endif %}

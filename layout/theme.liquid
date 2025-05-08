@@ -299,28 +299,7 @@
   </head>
 
   <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
-    {% comment %} {% render 'tutorial' %} {% endcomment %}
-    {% comment %} {% render 'tutorial2' %} {% endcomment %}
-    {% comment %} {% render 'loopconcept' %} {% endcomment %}
-    {% comment %} {% render 'paginate' %} {% endcomment %}
-    {% comment %} {% render 'filters' %} {% endcomment %}
-    {% comment %} {% render 'stringfilters' %} {% endcomment %}
-    {% comment %} we can also pas parameters in file {% endcomment %}
-    {%
-      render "my-snippets",{
-      word:"word",
-      second_word:"word2"
-      }
-    %}
-    {% comment %} snippets manually added by me {% endcomment %}
-    <p>value;;;;;;;;;;;;;;;;;;;;;;{{ product.metafields.test_data.snowboard_length.value }}</p>
-    <p>Length value: {{ product.metafields.test_data.snowboard_length.value.value }}</p>
-<p>Length unit: {{ product.metafields.test_data.snowboard_length.value.unit }}</p>
-
-{{ product.metafields.custom.date_metafield.value | date: '%B %d, %Y' }}
-
-
-    <p>Hello world</p>
+    {% render "framework-snippet" %}
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>

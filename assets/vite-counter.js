@@ -1,0 +1,1 @@
+import{r,j as t,c as s}from"./vite-client.js";function c(){const[e,n]=r.useState(0),o=()=>{n(e+1)};return t.jsx(t.Fragment,{children:t.jsxs("div",{children:[t.jsx("p",{children:"hello from react"}),t.jsxs("button",{onClick:()=>{o()},children:["Counter ",e]})]})})}s.createRoot(document.getElementById("root")).render(t.jsx(r.StrictMode,{children:t.jsx(c,{})}));

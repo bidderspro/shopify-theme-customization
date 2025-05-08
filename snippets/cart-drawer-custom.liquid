@@ -1,9 +1,0 @@
-<div class="cart-custom-drawer">
-  {% for item in cart.items %}
-    <div class="cart-item">
-      <h3>{{ item.product.title }}</h3>
-
-      {% render 'product-label', product: item.product %}
-    </div>
-  {% endfor %}
-</div>

@@ -1,7 +1,0 @@
-<!-- sections/custom-product-template.liquid -->
-<div class="custom-product-container">
-  <h1>{{ product.title }}</h1>
-  <img src="{{ product.featured_image | img_url: 'large' }}" alt="{{ product.title }}">
-
-  {% render 'custom-product-price', product: product %}
-</div>

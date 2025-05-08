@@ -28,66 +28,6 @@
         "name": "dimension",
         "category": "MEASUREMENT"
       }
-    },
-    {
-      "key": "example_metafield",
-      "namespace": "custom",
-      "name": "Example Metafield",
-      "description": "This is some helper text. This is example of metafield added by me on may 05 2025.",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
-    },
-    {
-      "key": "related_product",
-      "namespace": "custom",
-      "name": "Related Product",
-      "description": "",
-      "type": {
-        "name": "product_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "product_guide",
-      "namespace": "custom",
-      "name": "Product Guide",
-      "description": "",
-      "type": {
-        "name": "file_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "image_metafield",
-      "namespace": "custom",
-      "name": "Image Metafield",
-      "description": "this is image type metafield.",
-      "type": {
-        "name": "file_reference",
-        "category": "REFERENCE"
-      }
-    },
-    {
-      "key": "date_metafield",
-      "namespace": "custom",
-      "name": "Date Metafield",
-      "description": "",
-      "type": {
-        "name": "date",
-        "category": "DATE_TIME"
-      }
-    },
-    {
-      "key": "temp_metafield",
-      "namespace": "custom",
-      "name": "Temp Metafield",
-      "description": "",
-      "type": {
-        "name": "single_line_text_field",
-        "category": "TEXT"
-      }
     }
   ],
   "variant": [],

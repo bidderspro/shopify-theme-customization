@@ -1,0 +1,2 @@
+# hydrogene
+if we are looking for falls more into the line of building whole store using a javascript framework instead of liquid shopify has hydrogen a react framework that's integrated with the shopify platform, there's also the option to build the store in a framework of your choosing by using shopify's headless API that way shopify will manage the back end of your store and you are free to build the frontend in any technology we want 
